@@ -13,16 +13,17 @@ alert ('choose book1 or book2')
 
 var userBookfav = prompt('what is your favorite book?' )
 
-while(userBookfav !=== 'book1' && userBookfav !=== 'book2'){
+while(userBookfav !== 'book1' && userBookfav !== 'book2'){
   userBookfav = prompt('try again')
 }
 var bookCount = prompt ('how many book do you want us to display?')
 var image = ''
 for(var i=0; i< bookCount; i++) {
-  if (userBookfav === 'book1'){
-    document.write('<img src="book1.jpg"')
+  if (userBookfav == 'book1'){
+    document.write('<img src="book1.jpg">') 
+    console.log(bookCount)
   }
-  else if(userBookfav === 'book2'){
-    image = image + '<img src="book2.jpg"'
+  else if(userBookfav == 'book2'){
+    document.write(image = image + '<img src="book2.jpg">')
   }
 }
