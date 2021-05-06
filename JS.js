@@ -9,6 +9,8 @@ if (book === 'book1') {document.write('<img "src="book1.jpg>"')}
 else if (book === 'book2'){document.write('<img src="book2.jpg"')}
 else {alert('not inserted in our database')}*/
 
+alert ('choose book1 or book2')
+
 var userBookfav = prompt('what is your favorite book?' )
 
 while(userBookfav !=== 'book1' && userBookfav !=== 'book2'){
