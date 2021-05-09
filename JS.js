@@ -1,4 +1,4 @@
-var username = prompt('what is your name')
+/*var username = prompt('what is your name')
 if (username === 'mohd') {document.write('hello mohd')}
 else if (username === 'alex'){alert('hello alex')}
 else if (username === 'sarah') {console.log('hello sarah')}
@@ -7,7 +7,7 @@ else {alert ('hello user')}
 var book = prompt('pick a book')
 if (book === 'book1') {document.write('<img "src="book1.jpg>"')}
 else if (book === 'book2'){document.write('<img src="book2.jpg"')}
-else {alert('not inserted in our database')}*/
+else {alert('not inserted in our database')}
 
 alert ('choose book1 or book2')
 
@@ -24,13 +24,12 @@ for(var i=0; i< bookCount; i++) {
     console.log(bookCount)
   }
   else if(userBookfav == 'book2'){
-<<<<<<< HEAD
+
     document.write('<img src="book2.jpg">')
-=======
-    document.write(image = image + '<img src="book2.jpg">')
->>>>>>> 37bd0cf871f24908280d77e60eb66fcb6dad0bde
+    
   }
-}
+}*/
+
 
 
 var userFavBook = prompt('Whats your favourite book?')
