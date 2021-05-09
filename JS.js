@@ -24,7 +24,11 @@ for(var i=0; i< bookCount; i++) {
     console.log(bookCount)
   }
   else if(userBookfav == 'book2'){
+<<<<<<< HEAD
     document.write('<img src="book2.jpg">')
+=======
+    document.write(image = image + '<img src="book2.jpg">')
+>>>>>>> 37bd0cf871f24908280d77e60eb66fcb6dad0bde
   }
 }
 
