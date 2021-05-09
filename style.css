@@ -1,5 +1,53 @@
-header{background-color: rgb(35, 155, 115);}
-header h1{color: rgb(233, 34, 34); text-align:center;}
-header nav ul li{display: inline-block; margin-top: 40px; font-size: large;}
-header nav UL LI A {color: rgb(240, 18, 18); text-decoration: aqua;}
-p{color: rgb(113, 103, 247); margin: 20px;}
+header {
+  background-color:#ead3cb; 
+}
+
+header h1 {
+  color: #845460;
+  text-align:center;
+}
+
+header nav ul li{
+  display: inline-block;
+  margin-left: 40px;
+  font-size: large;
+  padding-top: 30px;
+
+}
+
+header nav ul li a{
+    color: #845460;
+
+    text-decoration: none;
+}
+/* # the name of the ID */
+#first{
+  background: #845460;
+  height: 200px;
+  text-align: center;
+  color: #ead3cb;
+  padding-top: 50px;
+  font-size:x-large;
+  margin-top:10px;
+}
+/* . the name of the class */
+.same{
+ float: left;
+ margin-left: 8%;
+}
+.same h3{
+  text-align: center;
+  color: #845460;
+}
+
+
+
+
+footer{
+  clear: both;
+  background-color: #845460;
+  height: 100px;
+  text-align: center;
+  color: #ead3cb;
+  padding-top:20px;
+}
